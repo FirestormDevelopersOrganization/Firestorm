@@ -1,2 +1,7 @@
 *.opensdf
 *.sdf
+Binaries/
+Intermediate/Build/
+Intermediate/CachedAssetRegistry.bin
+Saved/
+Firestorm.v12.suo
