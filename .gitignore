@@ -6,4 +6,4 @@
 Binaries/
 Intermediate/
 Saved/
-Firestorm.v12.suo # clutter file
+*.suo # clutter file
