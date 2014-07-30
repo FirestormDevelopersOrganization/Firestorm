@@ -1,7 +1,9 @@
+# Visual studio clutter files
 *.opensdf
 *.sdf
+
+# Binaries can be ignored:
 Binaries/
-Intermediate/Build/
-Intermediate/CachedAssetRegistry.bin
+Intermediate/
 Saved/
-Firestorm.v12.suo
+Firestorm.v12.suo # clutter file
