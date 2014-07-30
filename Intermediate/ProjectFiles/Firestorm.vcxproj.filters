@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Firestorm.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{28D7DE9C-5C36-4897-9653-90E61B11A9A8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Firestorm.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FirestormEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{91A62ED5-492C-453F-8E62-9E0B09BA50F4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Firestorm">
+			<UniqueIdentifier>{147061D1-3A38-4C6F-AD35-3B5220D63C9C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Firestorm\Firestorm.Build.cs">
+			<Filter>Source\Firestorm</Filter>
+		</None >
+		<Filter Include="Source\Firestorm\Private">
+			<UniqueIdentifier>{C5F82F4A-797C-45F8-8E42-73EE492940AA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Firestorm\Private\Firestorm.cpp">
+			<Filter>Source\Firestorm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Firestorm\Private\FirestormCharacter.cpp">
+			<Filter>Source\Firestorm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Firestorm\Private\FirestormGameMode.cpp">
+			<Filter>Source\Firestorm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Firestorm\Private\FirestormHUD.cpp">
+			<Filter>Source\Firestorm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Firestorm\Private\FirestormProjectile.cpp">
+			<Filter>Source\Firestorm\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Firestorm\Public">
+			<UniqueIdentifier>{C918772F-B018-48B8-8ADD-361204A921DF}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Firestorm\Public\Firestorm.h">
+			<Filter>Source\Firestorm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Firestorm\Public\FirestormCharacter.h">
+			<Filter>Source\Firestorm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Firestorm\Public\FirestormGameMode.h">
+			<Filter>Source\Firestorm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Firestorm\Public\FirestormHUD.h">
+			<Filter>Source\Firestorm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Firestorm\Public\FirestormProjectile.h">
+			<Filter>Source\Firestorm\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Firestorm\Resources">
+			<UniqueIdentifier>{D7FC391A-6790-4376-969B-5E9E40F61B72}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Firestorm\Resources\Windows">
+			<UniqueIdentifier>{EA73E3A3-CDE1-4CCE-8FEF-F60940BDD755}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Firestorm\Resources\Windows\Firestorm.ico">
+			<Filter>Source\Firestorm\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Firestorm\Resources\Windows\Firestorm.rc">
+			<Filter>Source\Firestorm\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
