@@ -4,6 +4,22 @@ This is the developer branch. This is where we are going to be doing all of our 
 
 The source code we will be working with is under the 'Source/Firestorm' folder. Headers go in the public folders and Source files go in the Private folder. This is how Unreal Engine likes to organize things, I did not set it up this way.
 
+## Quickstart guide
+
+Before you try to get anything to run, make sure you have both Unreal Engine and Visual Studio installed.
+
+### Get the editor running
+
+After you have cloned the Firestorm repository, you should be able to see it in your Git GUI window. On the left hand side, select Firestorm. With Firestorm selected, make sure the branch is set to `dev` and NOT `master`. If you run the editor on the master branch then you are probably not running the most recent code.
+
+Once you switch the branch to `dev`, right click Firestorm and select Open in Explorer. This will take you to the git folder. Double-click the uproject file to open the editor.
+
+A prompt will pop up and ask you if you want to refresh the files, click yes. This will build the engine code needed to launch the editor. The editor should launch after this step.
+
+### Start editing the code
+
+If you have gotten this far with no problems, then congrats! Just click file -> Open Visual Studio to start editing the code.
+
 ## Quick intro to git and GitHub
 
 For anyone who has never used git or GitHub please keep reading, if you are a git guru, then you can either skip this section or stick around for a good laugh.
@@ -60,9 +76,15 @@ Thanks for your contributation!
 
 ## Documentation
 
-I know most people really hate documentation but in this case we have to document as much as possible. We have a lot of options for documentation, but I think that most people probably use [Doxygen](www.doxygen.org). It is pretty straight forward and I think it will be easy to stick to. I will do periodic document builds and add them on GitHub (under the wiki section probably).
+I know most people really hate documentation but in this case we have to document as much as possible. We have a lot of options for documentation, but I think that most people probably use [Doxygen](www.doxygen.org). It is pretty straight forward and I think it will be easy to stick to. I will periodically document builds and add them on GitHub (under the wiki section probably).
 
-Everyone should try to do some house cleaning in respect to keeping documentation clean and up to date. Documentation is a once every minute couple of minutes sort of thing, not a once a week for 3 hours sort of thing. I don't want to have to go through all of your code and do proper commenting, so please keep it clean and up to date!
+Everyone should try to do some house keeping in respect to keeping documentation clean and up to date. Documentation is a once every minute couple of minutes sort of thing, not a once a week for 3 hours sort of thing. I don't want to have to go through all of your code and do proper commenting, so please keep it clean and up to date!
+
+## Compatability
+
+As of writing, the latest version of Unreal Engine is 4.3. I think that we should use 4.3 for the remainder of the project just so we don't run into problems. I think the majority of us are running Windows 8 (64bit) or Windows 8.1 (64bit) so I don't think we will run into any problems with compatability.
+
+If you are trying to compile the editor on a Mac, I'm not sure if it will work but you can try it. Email FirestormDevelopers@gmail.com if you have any issues.
 
 ## Our Objectives
 
