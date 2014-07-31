@@ -36,7 +36,7 @@ Everyone should try to do some house keeping in respect to keeping documentation
 
 ## Our Objectives
 
-At the last meeting (on July 25th) we talked about a couple of different things we wanted to implement in code. Here is a short summary of some of the things taht we talked about:
+At the last meeting (on July 25th) we talked about a couple of different things we wanted to implement in code. Here is a short summary of some of the things that we talked about:
 
 1. Character Personality: each character reacts to the environment based on their personality
   * Ex) A passenger sneezes on another passenger, depending on the recipiant's personality, they will react accordingly (probably with anger).
@@ -73,7 +73,7 @@ APawn
       ...
     + Janitor << For example, perhaps all Janitors are a bit more tense than the other characters
     + CoupleMan
-    + CoupleWoman << For exmple, the `CoupleMan` and `CoupleWomen` will want to stay close to eachother.
+    + CoupleWoman << For example, the `CoupleMan` and `CoupleWomen` will want to stay close to eachother.
     ...
 
 Please feel free to add stuff here, this is probably going to be our most documented section.
@@ -85,10 +85,12 @@ I think we should come up with a table here of all of the possible interactive a
 Sneeze         |  The character will sneeze on characters around them. This will probably make other characters around this character more angry.
 Bump           |  When a character walks too close to another character, they can bump into them. This will probably increase the anger of the character that was bumped into.
 
+Once we have defined what the action should do, we should also define what the sending and recieving functions will be called and what kind of parameters should be passed:
+
   Action Name  |  Character send action  | Character recieve action 
 :-------------:|:-----------------------:|:------------------------:
-Sneeze         |sneeze()                 |wasSneezedOn()       
-Bump           |bump()                   |wasBumped()                    
+Sneeze         |sneeze()                 |wasSneezedOn(BaseCharacter offender)       
+Bump           |bump()                   |wasBumped(BaseCharacter offender)                    
 
 Right now I think we are just trying to get the structure down. We will probably start doing some actual coding next week.
 
